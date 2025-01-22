@@ -5,7 +5,7 @@ int main() {
     char a;
 
     // Taking a input Character
-    scanf("%c",a);
+    scanf("%c",&a);
 
     // Printing an ASCII Value
     printf("ASCII Value: %d",(int)a);
