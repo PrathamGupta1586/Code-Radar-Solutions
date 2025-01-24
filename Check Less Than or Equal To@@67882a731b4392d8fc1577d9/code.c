@@ -3,7 +3,10 @@
 int main(){
     int a,b;
     char result[100];
-    result = a>=b ? "True" : "False";
+    if (a<=b)
+        printf("True");
+    else
+        printf("False");
     printf("%s",result);
     return 0;
 }
