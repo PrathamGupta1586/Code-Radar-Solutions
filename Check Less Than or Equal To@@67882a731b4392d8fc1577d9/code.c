@@ -5,7 +5,7 @@ int main(){
     char result[100];
     if (a<=b)
         printf("True");
-    else
+    else if (a>b)
         printf("False");
     printf("%s",result);
     return 0;
